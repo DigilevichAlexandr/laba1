@@ -85,6 +85,11 @@ public class Complex {
         return this;
     }
 
+    public String toString()
+    {
+        return re + "," + re;
+    }
+
     /**
      * Square of Complex object's length, we're using square of length to 
      * eliminate the computation of square root
